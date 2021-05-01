@@ -74,13 +74,12 @@ break;
 case '.':
 if(input_var.value!='')
 {
-if(checkdots.indexOf('.')==-1)
-{
+
 	dotoperator=  input_var.value+'.';
 	input_var.value =dotoperator;
-  // console.log
+  
 	break;
-}
+
 }
 }
 }
