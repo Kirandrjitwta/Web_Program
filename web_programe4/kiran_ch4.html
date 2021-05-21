@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Program-4</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var str=prompt("Enter the input","");
+        if(!(isNaN(str)))
+        {
+            var num,rev=0,remainder;
+            num=parseInt(str);
+            while(num!=0)
+            {
+                remainder=num%10;
+                num=parseInt(num/10);
+                rev=rev*10+remainder;
+            }
+            alert("Reverse of "+str+" is "+rev+" and the product is "+(str*rev));
+        }
+       else
+{
+// function to count the number of vowels in a string
+
+// defining vowels
+const vowels = ["a", "e", "i", "o", "u"]
+
+function CountVowel(str) {
+    // initialize count
+    let count = 0;
+
+    // loop through string to test if each character is a vowel
+    for (let letter of str.toLowerCase()) {
+        if (vowels.includes(letter)) {
+            count++;
+        }
+    }
+
+    // return number of vowels
+    return count;
+}
+
+const result = CountVowel(str);
+console.log(result);
+alert("The total number of vowels in "+str+" is"+result);
+
+}
+    </script>
+
+</body>
+</html>
+
+
+
+
+

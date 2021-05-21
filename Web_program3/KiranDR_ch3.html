@@ -1,0 +1,106 @@
+<!-- Program-3: Write a JavaScript code that displays text “TEXT-
+GROWING” with increasing font size in the interval of 100ms in RED
+
+COLOR, when the font size reaches 50pt it displays
+“TEXTSHRINKING” in BLUE color. Then the font size decreases to
+5pt. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Photo Rating</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="navbar">
+		<a href="#home">Home</a><a href="#">Places</a><a href="#last">Gallery</a><a href="#">About Us</a><a href="#">Search</a>
+	</div>
+	</header>
+	<br>
+	<h2>The Jewel of Hampi- The Stone Chariot</h2>
+	<figure>
+		 <img src="https://toim.b-cdn.net/pictures/tourintro/tour-to-karnataka-957.jpeg"width="450" height="300">
+		 <figcaption><b>NAMMA HEMME</b></figcaption>
+	</figure>
+	<h3>BY:<a href="#by">kiran D R</a></h3>
+	<article style="background-image: url('imag3.jpg');">Every tourist place has that one spot which earns it galore and admiration. For Hampi, the small, dainty temple village set in Karnataka, it’s the iconic <strong>stone chariot</strong>. It’s the leading man in the army of exquisite beautiful sights that Hampi has to offer and depicts Karnataka tourism an icon itself.<br>The chariot is actually a shrine dedicated to Garuda, built inside the Vittala Temple Complex.  The massive sculpture of Garuda, Lord Vishnu’s escort once was seated atop the chariot but it is empty at the present date. <br>The <strong>Hampi Chariot</strong> has earned its name among the other three famous stone chariots in India- One in <strong>Konark, Odissa, and the other in Mahabalipuram (Tamil Nadu).<strong></article>
+	<section> 
+    <h4>DATE: 4th October<br>
+        YEAR:2020</h4>
+    </section>
+	<p id="demo"></p>
+	<script>
+var var1 = setInterval(inTimer, 500);
+var fs = 5; //font size
+var ids = document.getElementById("demo");
+function inTimer()
+{
+ids.innerHTML = 'HAMPI';
+ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+fs += 5;
+if (fs >= 60)
+{
+clearInterval(var1); 
+var2 = setInterval(deTimer, 500);
+
+}
+}
+function deTimer() 
+{
+fs -= 5;
+ids.innerHTML = 'ಹಂಪೆ';
+ids.setAttribute('style', "font-size: " + fs + "px; color: #f1e1b0");
+if (fs == 5)
+{
+clearInterval(var2); //paused
+var1 = setInterval(inTimer, 500);
+}
+}
+</script>
+	<hr>
+	<section >
+	<p1> <strong>mesmerizing !!!!</strong><br>Mahesh R
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<div>Amazing amazing and amazing<br>Nov 2020<br>
+         Hampi is an amazing place ..<br>
+         It's just the ruins we get to see.<br>
+         Just imagine how the real Vijaynagar would have been..
+ </div>
+	</p1>
+	</section>
+	<hr>
+	<section>
+	<div> You need time to explore and adore the beautiful work of the temples and all other archeological sites in Hampi.</div>
+	<p1> <strong>Nice</strong><br>Fiona
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<hr>
+	</p1>
+     </section>
+     <section>
+	<p1> <strong>Nice</strong><br>Fiona
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<div> Hampi - A long time dream come true trip, historical, Charming and mesmerizing; paradise for photography</div>
+	</p1>
+	<hr>
+</section>
+	<footer>
+		<a href="#home">Home</a>|<a href="#">Places</a>|<a href="#last">Gallery</a>|<a href="#">Search</a><br>
+		 &copy; 1JT18is027_kiran D R
+	</footer>
+</body>
+</html>

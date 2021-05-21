@@ -1,0 +1,69 @@
+h1{
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	padding: 10px;
+	transform: translate(-50%,-50%);
+}
+h2{
+	color: white;
+	text-align: center;
+  text-shadow: 0 0 5px #753892, 0 0 10px #24165D;
+}
+h3,h4{
+	color: white;
+}
+p{
+	position: absolute;
+	top: 30%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+	/*padding: 10px;*/
+}
+.checked{
+		color: orange;
+}
+body{
+	background-image: url("https://wallpapertag.com/wallpaper/full/a/d/e/291156-brown-background-1920x1200-images.jpg");
+}
+footer{
+	color:#e6af91;
+}
+article{
+	border: 3px solid black;
+    outline-style: outset;
+    outline-color: grey;
+    font-size: 25px;
+}
+figcaption{
+	overflow: visible;
+	background-color: grey;
+	width: 140px;
+	height: 20px;
+	position: absolute;
+	bottom: 240px;  
+	left:100px;
+}
+.navbar {
+  overflow: hidden;
+  background-color:#4f301f;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.navbar a:hover {
+  background-color:#ccbeac;
+  color: black;
+}
+section{
+	color: #f1e1b0;
+}
