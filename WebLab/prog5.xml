@@ -1,0 +1,41 @@
+<?xml-stylesheet type="text/css" href="prog5.css"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<h1> STUDENTS DESCRIPTION </h1>
+</head>
+<students>
+	<student>
+		<USN> USN: 1JT18IS027</USN>
+		<name>Name : KIRAN D R</name>
+		<college>COLLEGE : Jyothy Institute of Technology</college>
+		<branch>BRANCH : Information Science and Engineering</branch>
+		<year>YEAR : 2022</year>
+		<e-mail>E-Mail : kiran@gmail.com</e-mail>
+	</student>
+	<student>
+		<USN>USN : 1JT18IS035 </USN>
+		<name>NAME : Manjunath</name>
+		<college>COLLEGE : Jyothy Institute of Technology</college>
+		<branch>BRANCH : Information Science and Engineering</branch>
+		<year>YEAR : 2022</year>
+		<e-mail>E-Mail :Manjunath@gmail.com </e-mail>
+	</student>
+	<student>
+		<USN>USN : 1JT18IS037</USN>
+		<name>NAME : Nishanth</name>
+		<college>COLLEGE : Jyothy Institute of Technology</college>
+		<branch>BRANCH : Information Science and Engineering</branch>
+		<year>YEAR : 2022</year>
+		<e-mail>E-Mail :Ramu@gmail.com </e-mail>
+	</student>
+	<student>
+		<USN>USN : 1JT18IS054</USN>
+		<name>NAME : Ramesha </name>
+		<college>COLLEGE : Jyothy Institute of Technology</college>
+		<branch>BRANCH : Information Science and Engineering</branch>
+		<year>YEAR : 2022</year>
+		<e-mail>E-Mail : Ramesha@gmail.com</e-mail>
+	</student>
+</students>
+</html>
